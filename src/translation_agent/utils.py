@@ -21,7 +21,7 @@ MAX_TOKENS_PER_CHUNK = (
 def get_completion(
     prompt: str,
     system_message: str = "You are a helpful assistant.",
-    model: str = "gpt-4-turbo",
+    model: str = "gpt-4o",
     temperature: float = 0.3,
     json_mode: bool = False,
 ) -> Union[str, dict]:
